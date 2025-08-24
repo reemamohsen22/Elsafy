@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>الصافي سنتر</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">الصافي سنتر</div>
+    <input type="text" id="search-bar" placeholder="ابحث عن منتج..." />
+    <button id="search-btn">🔍</button>
+    <div class="cart">🛒<span id="cart-count">0</span></div>
+  </header>
+
+<section class="image-carousel">
+  <div class="carousel-container">
+    <img src="ccover.png" class="carousel-image active" alt="تلاجة العربي">
+    <img src="ellaraby.png" class="carousel-image" alt="غسالة العربي">
+    <img src="frresh.png" class="carousel-image" alt="بوتاجاز العربي">
+    <img src="taank.png" class="carousel-image" alt="بوتاجاز العربي">
+    <img src="shharp.png" class="carousel-image" alt="بوتاجاز العربي">
+
+  </div>
+</section>
+
+<section class="product-group-carousel">
+  <div class="group active">
+    <div class="product-card">
+      <img src="ff.png" alt="تلاجة">
+      <h3>تلاجة نوفروست</h3>
+      <p>5500 جنيه</p>
+    </div>
+        <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="gg.png" alt="غسالة">
+      <h3>غسالة أوتوماتيك</h3>
+      <p>4200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="gg.png" alt="غسالة">
+      <h3>غسالة أوتوماتيك</h3>
+      <p>4200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="qq.png" alt="قلاية هوائية">
+      <h3>قلاية هوائية</h3>
+      <p>999 جنيه</p>
+    </div>
+        <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="product-card">
+      <img src="gg.png" alt="تكييف">
+      <h3>تكييف شارب</h3>
+      <p>7500 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="mo.png" alt=" مبردات">
+      <h3>ساعة ذكية</h3>
+      <p>850 جنيه</p>
+    </div>
+        <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+  </div>
+
+
+    <div class="group">
+    <div class="product-card">
+      <img src="dd.png" alt="تكييف">
+      <h3>تكييف شارب</h3>
+      <p>7500 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+        <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+    <div class="product-card">
+      <img src="dd.png" alt=" مبردات">
+      <h3>ساعة ذكية</h3>
+      <p>850 جنيه</p>
+    </div>
+     <div class="product-card">
+      <img src="dd.png" alt=" مبردات">
+      <h3>ساعة ذكية</h3>
+      <p>850 جنيه</p>
+    </div>
+        <div class="product-card">
+      <img src="mm.png" alt="مروحة">
+      <h3>مكبر صوت JBL</h3>
+      <p>1200 جنيه</p>
+    </div>
+  </div>
+
+  <!-- أضف المزيد من المجموعات حسب الحاجة -->
+</section>
+
+  <section class="categories">
+    <button data-main="all" class="active">الكل</button>
+    <button data-main="electrical">أجهزة كهربائية</button>
+    <button data-main="homeware">أدوات منزلية</button>
+    <button data-main="clothing">ملابس</button>
+    <button data-main="bedding">مفروشات</button>  
+  </section>
+
+  <section class="subcategories">
+    <div data-main="electrical" class="sub-group">
+      <button data-sub="coolers">مبردات مياه</button>
+      <button data-sub="washers">غسالات</button>
+      <button data-sub="fridges">تلاجات</button>
+      <button data-sub="aircoolers">مبردات هواء</button>
+      <button data-sub="cookers">بوتاجازات</button>
+    </div>
+    <div data-main="homeware" class="sub-group hidden">
+      <button data-sub="china">أطقم صيني</button>
+      <button data-sub="steel">استالس</button>
+      <button data-sub="ceramic">سيراميك</button>
+    </div>
+    <div data-main="clothing" class="sub-group hidden">
+      <button data-sub="pajamas">بيجامات</button>
+      <button data-sub="bags">شنط</button>
+      <button data-sub="pants">بنطلونات</button>
+    </div>
+    <div data-main="bedding" class="sub-group hidden">
+      <button data-sub="dining">مفرش سفرة</button>
+      <button data-sub="wedding">مفرش عروسة</button>
+    </div>
+  </section>
+
+  <section class="products">
+    <!-- مثال على منتج -->
+    <div class="product" data-main="electrical" data-sub="fridges">
+      <img src="ff.png" alt="تلاجة" />
+      <h2>تلاجة نوفروست</h2>
+      <p>السعر: ٥٥٠٠ جنيه</p>
+      <button>أضف إلى السلة</button>
+    </div>
+    <div class="product" data-main="clothing" data-sub="pajamas">
+      <img src="pegama.png" alt="بيجامة" />
+      <h2>بيجامة قطنية</h2>
+      <p>السعر: ٢٥٠ جنيه</p>
+      <button>أضف إلى السلة</button>
+    </div>
+        <div class="product" data-main="homeware" data-sub="china">
+      <img src="ff.png" alt="تلاجة" />
+      <h2>تلاجة نوفروست</h2>
+      <p>السعر: ٥٥٠٠ جنيه</p>
+      <button>أضف إلى السلة</button>
+    </div>
+    <div class="product" data-main="clothing" data-sub="bags">
+      <img src="bag.png" alt="شنط" />
+      <h2>تلاجة نوفروست</h2>
+      <p>السعر: ٥٥٠٠ جنيه</p>
+      <button>أضف إلى السلة</button>
+    </div>
+    <div class="product" data-main="bedding" data-sub="wedding">
+      <img src="bed.png" alt="شنط" />
+      <h2>تلاجة نوفروست</h2>
+      <p>السعر: ٥٥٠٠ جنيه</p>
+      <button>أضف إلى السلة</button>
+    </div>
+    <!-- أضف باقي المنتجات بنفس النمط -->
+  </section>
+<!-- ازرار -->
+
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Tahoma", "Arial", sans-serif;
+      padding-bottom: 65px;
+      background: #f7f7f7;
+    }
+
+    /* الصفحات */
+    .page {
+      display: none;
+      padding: 20px;
+      min-height: 100vh; /* عشان يكون فيه مساحة للنزول */
+    }
+    .page.active {
+      display: block;
+    }
+
+    /* الشريط السفلي */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 65px;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    .bottom-nav a {
+      text-decoration: none;
+      color: #444;
+      font-size: 13px;
+      text-align: center;
+      flex-grow: 1;
+      transition: all 0.3s ease;
+    }
+
+    .bottom-nav a i {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+
+    .bottom-nav a.active {
+      color: #ff6600;
+      font-weight: bold;
+    }
+    .bottom-nav a.active i {
+      color: #ff6600;
+    }
+
+    /* قائمة التصنيفات */
+    .categories ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+    .categories li {
+      padding: 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .categories li:last-child {
+      border-bottom: none;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- صفحة الرئيسية -->
+  <div id="home" class="page active">
+    <h2>الصفحة الرئيسية</h2>
+    <p>هنا محتوى الصفحة الرئيسية...</p>
+  </div>
+
+  <!-- صفحة التصنيفات -->
+  <div id="categories" class="page categories">
+    <h2>التصنيفات</h2>
+    <ul>
+      <li>كمبيوتر <i class="fas fa-chevron-left"></i></li>
+      <li>موبايل وتابلت <i class="fas fa-chevron-left"></i></li>
+      <li>الأجهزة المنزلية <i class="fas fa-chevron-left"></i></li>
+      <li>تلفزيونات <i class="fas fa-chevron-left"></i></li>
+      <li>سماعات <i class="fas fa-chevron-left"></i></li>
+      <li>ألعاب <i class="fas fa-chevron-left"></i></li>
+      <li>إلكترونيات <i class="fas fa-chevron-left"></i></li>
+    </ul>
+  </div>
+
+  <!-- صفحة العروض -->
+  <div id="offers" class="page">
+    <h2>عروضي</h2>
+    <p>هنا العروض والخصومات...</p>
+  </div>
+
+  <!-- صفحة الحساب -->
+  <div id="account" class="page">
+    <h2>حسابي</h2>
+    <p>معلومات الحساب الشخصي...</p>
+  </div>
+
+  <!-- شريط التنقل -->
+  <div class="bottom-nav">
+    <a href="#" class="active" data-page="home"><i class="fas fa-home"></i> الرئيسية</a>
+    <a href="#" data-page="categories"><i class="fas fa-th-large"></i> تصنيفات</a>
+    <a href="#" data-page="offers"><i class="fas fa-fire"></i> عروض</a>
+    <a href="#" data-page="account"><i class="fas fa-user"></i> حسابي</a>
+  </div>
+
+<script>
+  const links = document.querySelectorAll('.bottom-nav a');
+  const pages = document.querySelectorAll('.page');
+
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      // تحديث الزر النشط
+      links.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+
+      // إخفاء كل الصفحات
+      pages.forEach(p => p.classList.remove('active'));
+
+      // إظهار الصفحة المطلوبة
+      const pageId = link.getAttribute('data-page');
+      const targetPage = document.getElementById(pageId);
+      targetPage.classList.add('active');
+
+      // تحريك الشاشة
+      if (pageId === 'home') {
+        // الذهاب مباشرة لأعلى الصفحة
+        window.scrollTo({ top: 0, behavior: "auto" });
+      } else {
+        // تحريك ناعم للصفحات الأخرى
+        targetPage.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
